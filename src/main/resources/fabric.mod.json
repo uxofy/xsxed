@@ -3,10 +3,8 @@
   "id": "eatanimation",
   "version": "${version}",
   "name": "Eat Animation",
-  "description": "Добавляет плавную анимацию еды и скрывает лишние настройки MACECORE из меню управления. Чистый интерфейс без лишних клавиш.",
-  "authors": [
-    "YourName"
-  ],
+  "description": "Добавляет плавную анимацию еды и скрывает лишние настройки MACECORE",
+  "authors": ["uacify"],
   "contact": {
     "homepage": "https://github.com/uacify/xssed",
     "sources": "https://github.com/uacify/xssed"
@@ -15,17 +13,13 @@
   "icon": "assets/eatanimation/icon.png",
   "environment": "client",
   "entrypoints": {
-    "client": [
-      "com.eatanimation.EatAnimationClient"
-    ]
+    "client": ["com.eatanimation.EatAnimationClient"]
   },
-  "mixins": [
-    "eatanimation.mixins.json"
-  ],
+  "mixins": ["eatanimation.mixins.json"],
   "depends": {
     "fabricloader": ">=0.16.9",
     "fabric-api": "*",
-    "minecraft": "~1.21.1",
+    "minecraft": "~1.21.11",
     "java": ">=21"
   }
 }
