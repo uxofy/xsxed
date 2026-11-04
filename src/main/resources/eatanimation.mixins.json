@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.eatanimation.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "KeyBindingMixin",
+    "ControlsScreenMixin",
+    "GameOptionsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

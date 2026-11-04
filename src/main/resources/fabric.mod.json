@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "eatanimation",
+  "version": "${version}",
+  "name": "Eat Animation",
+  "description": "Добавляет плавную анимацию еды и скрывает лишние настройки MACECORE из меню управления. Чистый интерфейс без лишних клавиш.",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "homepage": "https://github.com/YourName/eat-animation",
+    "sources": "https://github.com/YourName/eat-animation"
+  },
+  "license": "MIT",
+  "icon": "assets/eatanimation/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.eatanimation.EatAnimationClient"
+    ]
+  },
+  "mixins": [
+    "eatanimation.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
